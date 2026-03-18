@@ -1,35 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
-  <title>Моє Резюме</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме | Мар'яна Стасів</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-      <h1>Мар'яна Стасів</h1>
-    </header>
-    <main>
-      <h2>Про себе</h2>
-      <p>Студентка 3-го курсу Кібербезпеки, активний член української скаутської організації Пласт. Поєдную навчання і організацію соціальних проектів.</p>
+    <div class="cv-container">
+        <aside class="sidebar">
+            <header>
+                <h1 class="name">Мар'яна<br>Стасів</h1>
+                <p>Студентка кібербезпеки</p>
+            </header>
 
-      <h2>Навички</h2>
-      <ul>
-          <li>HTML5 & CSS3</li>
-          <li>JavaScript</li>
-          <li>React (в процесі вивчення)</li>
-          <li>Відповідальність</li>
-          <li>Комунікабельність</li>
-      </ul>
+            <section class="contacts">
+                <h2>Контакти</h2>
+                <p>Телефон: 123-456-7890</p>
+                <p>Пошта: <a href="mailto:mary.stasiv@gmail.com">mary.stasiv@gmail.com</a></p>
+                <p>Місто: Львів, Україна</p>
+            </section>
 
-      <h2>Освіта</h2>
-      <p><strong>НУ "Львівська політехніка"</strong><br>
-      Спеціальність "Кібербезпека", 2023 - дотепер</p>
+            <section class="skills">
+                <h2>Навички</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React (в процесі вивчення)</li>
+                    <li>Основи кібербезпеки</li>
+                    <li>Git</li>
+                    <li>Відповідальність</li>
+                    <li>Комунікабельність</li>
+                </ul>
+            </section>
+        </aside>
 
-      <h2>Досвід</h2>
-      <ol>
-        <li>Розробка пет-проектів під час навчання (гра BTW, вебсайт книжкового видавництва)</li>
-        <li>Зробила цю лабку за 10 хвилин!!</li>
-      <ol>
+        <main class="main-content">
+            <section class="about-me">
+                <h2>Про себе</h2>
+                <hr>
+                <p>Студентка 3-го курсу спеціальності "Кібербезпека". Активний член української скаутської організації Пласт. Ефективно поєдную академічне навчання з організацією соціальних проектів та розвитком технічних навичок.</p>
+            </section>
 
-    </main>
+            <section class="experience">
+                <h2>Досвід</h2>
+                <hr>
+                <div class="exp-item">
+                    <h3>Розробка власних проектів</h3>
+                    <p>Створення гри BTW та вебсайту для книжкового видавництва. Практичне застосування знань з верстки та логіки додатків.</p>
+                </div>
+                <div class="exp-item">
+                    <h3>Академічна практика</h3>
+                    <p>Виконання лабораторних робіт з розгортання React-додатків та налаштування середовища розробки.</p>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Освіта</h2>
+                <hr>
+                <p><strong>НУ "Львівська політехніка"</strong></p>
+                <p>Спеціальність "Кібербезпека", 2023 — дотепер</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
