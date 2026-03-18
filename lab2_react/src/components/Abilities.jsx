@@ -6,6 +6,8 @@ function Abilities() {
           <li>HTML5 & CSS3</li>
           <li>JavaScript</li>
           <li>React (в процесі вивчення)</li>
+          <li>Основи кібербезпеки</li>
+          <li>Git</li>
           <li>Відповідальність</li>
           <li>Комунікабельність</li>
       </ul>
