@@ -4,7 +4,7 @@ function Expirience() {
       <h2 className="text-2xl font-bold text-primary-navy dark:text-primary-blue uppercase">
         Досвід
       </h2>
-      <div className="w-20 h-1 bg-primary-navy dark:bg-primary-blue mt-2 mb-5"></div>
+      <div className="w-20 h-0.75 bg-primary-navy dark:bg-primary-blue mt-2 mb-5"></div>
 
       <ul className="list-disc pl-5 space-y-6 text-text-base">
         <li>

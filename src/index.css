@@ -14,6 +14,10 @@
 }
 
 @layer base {
+  html {
+    font-size: 12px; 
+  }
+
   :root {
     --bg-page: #f4f7f6;      /* cv-bg */
     --bg-card: #ffffff;      /* white */

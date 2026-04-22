@@ -13,7 +13,7 @@ function Reviews() {
   }, []);
 
   return (
-    <div className="max-w-[900px] mx-auto mt-10 my-[30px] bg-card-bg shadow-2xl rounded-lg overflow-hidden">
+    <div className="max-w-3xl mx-auto mt-10 my-[30px] bg-card-bg shadow-2xl rounded-lg overflow-hidden">
       <h2 className="px-8 py-5 font-extrabold uppercase text-2xl text-primary-navy dark:text-primary-blue">
         Відгуки попередніх роботодавців
       </h2>
