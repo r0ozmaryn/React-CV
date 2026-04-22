@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Базові константи кольорів */
+  --color-primary-navy: #2c3e50;
+  --color-primary-blue: #60a5fa;
+  
+  /* Семантичні змінні, що адаптуються */
+  --color-main-bg: var(--bg-page);
+  --color-card-bg: var(--bg-card);
+  --color-text-base: var(--text-main);
+  --color-text-muted: var(--text-dim);
+  --color-border-subtle: var(--border-color);
+}
+
+@layer base {
+  :root {
+    --bg-page: #f4f7f6;      /* cv-bg */
+    --bg-card: #ffffff;      /* white */
+    --text-main: #4a5565;    /* темний текст для світлої теми */
+    --text-dim: #6b7280;     /* сірий текст */
+    --border-color: #d1d5db; /* gray-300 */
+    --primary-action: #2c3e50;
+  }
+
+  .dark {
+    --bg-page: #121212;      /* cv-dark */
+    --bg-card: #1e1e1e;      /* cv-card-dark */
+    --text-main: white;    /* світлий текст для темної теми */
+    --text-dim: #9ca3af;     /* light gray */
+    --border-color: #334155; /* slate-700/600 */
+    --primary-action: #60a5fa;
+  }
+
+  * {
+    @apply transition-colors duration-300;
+  }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
